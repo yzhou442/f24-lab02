@@ -7,6 +7,7 @@ class Rectangle implements Shape {
         this.height = height;
     }
 
+    // override the computeArea method
     computeArea(): number {
         return this.width * this.height
     }

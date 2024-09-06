@@ -5,6 +5,7 @@ class Square implements Shape {
         this.sideLen = sideLen;
     }
 
+    // override the computeArea method
     computeArea(): number {
         return this.sideLen * this.sideLen
     }

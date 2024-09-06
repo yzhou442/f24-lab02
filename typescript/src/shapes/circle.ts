@@ -5,6 +5,7 @@ class Circle implements Shape {
         this.radius = radius;
     }
 
+    // override the computeArea method
     computeArea(): number {
         return this.radius * this.radius
     }

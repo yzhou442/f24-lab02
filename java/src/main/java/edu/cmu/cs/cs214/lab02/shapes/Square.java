@@ -7,6 +7,7 @@ public class Square implements Shape {
         this.sideLen = sideLen;
     }
 
+    // override the getArea method
     @Override
     public double getArea() {
         return sideLen * sideLen;
