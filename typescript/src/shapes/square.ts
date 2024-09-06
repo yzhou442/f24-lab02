@@ -1,5 +1,6 @@
 class Square implements Shape {
-    sideLen: number;
+    // add encapsulation
+    private sideLen: number;
 
     constructor(sideLen: number) {
         this.sideLen = sideLen;

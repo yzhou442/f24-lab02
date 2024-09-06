@@ -1,6 +1,7 @@
 class Rectangle implements Shape {
-    width: number;
-    height: number;
+    // add encapsulation
+    private width: number;
+    private height: number;
 
     constructor(width: number, height: number) {
         this.width = width;

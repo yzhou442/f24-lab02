@@ -4,7 +4,7 @@ import edu.cmu.cs.cs214.lab02.shapes.*;
 
 public class Renderer {
     // Hide the shape by using encapsulation
-    public Shape shape;
+    private Shape shape;
     
     Renderer(Shape shape) {
         this.shape = shape;
